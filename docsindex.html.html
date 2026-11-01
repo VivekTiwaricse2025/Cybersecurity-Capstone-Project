@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cybersecurity Threat Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Security Monitoring Dashboard</h1>
+        <p>Security Log Analyzer & Threat Detection</p>
+    </header>
+
+    <main>
+        <section class="cards">
+            <div class="card">
+                <h3>Failed Attempts</h3>
+                <p id="failed">Loading...</p>
+            </div>
+            <div class="card">
+                <h3>Unique IPs</h3>
+                <p id="unique">Loading...</p>
+            </div>
+            <div class="card">
+                <h3>Suspicious IPs</h3>
+                <p id="suspicious">Loading...</p>
+            </div>
+        </section>
+
+        <section class="panel">
+            <h2>IP Activity Report</h2>
+            <div id="ip-list">Loading report...</div>
+        </section>
+
+        <footer>
+            Educational cybersecurity project.
+            Use authorized security logs only.
+        </footer>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
